@@ -1,0 +1,1037 @@
+2025/03/19 16:25:40 [201] POST /register from ::1 - Processed in 54.2997ms
+2025/03/19 16:28:58 [201] POST /register from ::1 - Processed in 45.4415ms
+2025/03/19 16:31:24 [200] POST /login from ::1 - Processed in 45.0219ms
+2025/03/19 16:33:16 [401] POST /projects from ::1 - Processed in 0s
+2025/03/19 16:33:21 [401] POST /projects from ::1 - Processed in 0s
+2025/03/19 16:33:36 [401] POST /projects from ::1 - Processed in 0s
+2025/03/19 22:31:20 [201] POST /projects from ::1 - Processed in 34.5279ms
+2025/03/19 23:08:08 [404] GET /projects from ::1 - Processed in 0s
+2025/03/19 23:09:47 [404] GET /projects from ::1 - Processed in 0s
+2025/03/19 23:11:05 [404] GET /projects/8 from ::1 - Processed in 502µs
+2025/03/19 23:11:28 [200] GET /projects/3 from ::1 - Processed in 0s
+2025/03/19 23:12:07 [401] GET /projects/3 from ::1 - Processed in 0s
+2025/03/19 23:14:10 [200] PUT /projects/3 from ::1 - Processed in 1.8398ms
+2025/03/19 23:14:31 [401] PUT /projects/3 from ::1 - Processed in 0s
+2025/03/20 12:22:55 [REQUEST] ::1 | POST | 201 | Processed in 85.5915ms
+2025/03/20 12:25:16 [REQUEST] ::1 | POST | 200 | Processed in 99.4878ms
+2025/03/20 12:27:08 [REQUEST] Stalker98 | POST | 201 | Processed in 37.6317ms
+2025/03/20 12:31:08 [REQUEST] Stalker98 | GET | 404 | Processed in 1.542ms
+2025/03/20 12:32:59 [REQUEST] Stalker98 | POST | 201 | Processed in 735.2µs
+2025/03/20 12:33:05 [REQUEST] Stalker98 | GET | 200 | Processed in 0s
+2025/03/20 12:44:05 [REQUEST] Stalker98 | POST | 201 | Processed in 1.1977ms
+2025/03/20 13:00:28 [REQUEST] Stalker98 | POST | 201 | Project created by user ID: 0
+2025/03/20 13:00:28 [REQUEST] Stalker98 | POST | 201 | Processed in 2.068ms
+2025/03/20 13:04:59 [REQUEST] ::1 | POST | 200 | Processed in 44.8421ms
+2025/03/20 13:05:51 [REQUEST] Stalker98 | POST | 201 | Project created by user ID: 10
+2025/03/20 13:05:51 [REQUEST] Stalker98 | POST | 201 | Processed in 1.7588ms
+2025/03/20 13:16:53 [REQUEST] Stalker98 | POST | 201 | Project created by user ID: 10
+2025/03/20 13:16:53 [REQUEST] Stalker98 | POST | 201 | Processed in 1.7893ms
+2025/03/20 13:17:15 [REQUEST] ::1 | GET | 401 | Processed in 679.2µs
+2025/03/20 13:17:40 [REQUEST] Stalker98 | GET | 200 | Processed in 1.0151ms
+2025/03/20 13:20:00 [REQUEST] Stalker98 | GET | 200 | Processed in 502.8µs
+2025/03/20 13:20:07 [REQUEST] ::1 | GET | 401 | Processed in 0s
+2025/03/20 14:07:42 [REQUEST] Stalker98 | GET | /projects/9 | 200 | Processed in 502.9µs
+2025/03/20 14:08:29 [REQUEST] Stalker98 | GET | /user/projects | 200 | Processed in 622.5µs
+2025/03/20 14:11:46 [REQUEST] Stalker98 | PUT | /projects/9 | 403 | Processed in 502.6µs
+2025/03/20 14:16:22 [REQUEST] Stalker98 | PUT | /projects/9 | 403 | Processed in 1.002ms
+2025/03/20 14:17:09 [REQUEST] Stalker98 | PUT | /projects/9 | 200 | Processed in 1.9436ms
+2025/03/20 14:18:47 [REQUEST] Stalker98 | PUT | /projects/9 | 200 | Processed in 1.0136ms
+2025/03/20 14:19:09 [REQUEST] Stalker98 | PUT | /projects/9 | 403 | Processed in 0s
+2025/03/20 15:30:53 [REQUEST] ::1 | POST | /register | 201 | Processed in 54.0059ms
+2025/03/20 15:31:34 [REQUEST] ::1 | POST | /login | 200 | Processed in 44.6173ms
+2025/03/20 15:32:56 [REQUEST] Stalker98 | POST | /projects | 201 | Project created by user ID: 0
+2025/03/20 15:32:56 [REQUEST] Stalker98 | POST | /projects | 201 | Processed in 1.728ms
+2025/03/20 15:33:55 [REQUEST] KirillDark | POST | /projects | 201 | Project created by user ID: 11
+2025/03/20 15:33:55 [REQUEST] KirillDark | POST | /projects | 201 | Processed in 807.2µs
+2025/03/20 15:36:45 [REQUEST] KirillDark | GET | /user/projects | 200 | Processed in 502.3µs
+2025/03/20 15:37:43 [REQUEST] KirillDark | GET | /projects/11 | 200 | Processed in 503.3µs
+2025/03/20 15:38:01 [REQUEST] KirillDark | GET | /projects/10 | 200 | Processed in 594.8µs
+2025/03/20 15:42:32 [REQUEST] KirillDark | GET | /projects/10 | 200 | Processed in 7.7763ms
+2025/03/20 15:43:22 [REQUEST] KirillDark | GET | /projects/9 | 404 | Processed in 1.0151ms
+2025/03/20 15:46:12 [REQUEST] KirillDark | PUT | /projects/11 | 403 | Processed in 0s
+2025/03/20 15:47:34 [REQUEST] KirillDark | PUT | /projects/11 | 403 | Processed in 0s
+2025/03/20 15:51:29 [REQUEST] KirillDark | PUT | /projects/11 | 200 | Processed in 9.7915ms
+2025/03/20 15:54:36 [REQUEST] KirillDark | POST | /projects/11/upload | 200 | Processed in 1.1068ms
+2025/03/20 16:02:24 [REQUEST] KirillDark | POST | /projects/11/tasks | 201 | Processed in 43.8128ms
+2025/03/20 16:03:58 [REQUEST] KirillDark | GET | /projects/11/tasks | 200 | Processed in 504.3µs
+2025/03/20 16:06:28 [REQUEST] KirillDark | PUT | /projects/11/tasks/10 | 200 | Processed in 1.1597ms
+2025/03/20 16:08:12 [REQUEST] KirillDark | DELETE | /projects/11/tasks/10 | 200 | Processed in 681.1µs
+2025/03/20 16:12:39 [REQUEST] KirillDark | DELETE | /projects/11 | 200 | Processed in 1.1226ms
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/24 - 09:56:52 | 404 |            0s |             ::1 | POST     "/register -H \"Content-Type: application/json\" -d \"{ /\"username/\": /\"Kirill/\", /\"password/\": /\"WordPass1/\", /\"role/\": /\"user/\" }\""
+[GIN] 2025/03/24 - 10:00:25 | 201 |     63.1448ms |             ::1 | POST     "/register"
+[GIN] 2025/03/24 - 10:06:38 | 200 |     43.4283ms |             ::1 | POST     "/login"
+[GIN] 2025/03/24 - 10:16:19 | 201 |     18.0704ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/24 - 10:19:42 | 200 |      1.0179ms |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/24 - 10:21:54 | 201 |      1.2411ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/24 - 10:25:53 | 200 |      1.2882ms |             ::1 | GET      "/projects/12"
+[GIN] 2025/03/24 - 10:26:01 | 200 |       503.3µs |             ::1 | GET      "/projects/13"
+[GIN] 2025/03/24 - 10:30:15 | 200 |      2.4665ms |             ::1 | PUT      "/projects/12"
+[GIN] 2025/03/24 - 10:31:35 | 200 |      1.6827ms |             ::1 | PUT      "/projects/13"
+[GIN] 2025/03/24 - 10:38:18 | 400 |            0s |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 10:42:19 | 400 |       604.5µs |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 10:42:58 | 400 |            0s |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 10:44:00 | 400 |            0s |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 10:44:25 | 400 |       504.5µs |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 10:46:00 | 200 |      1.0119ms |             ::1 | POST     "/projects/12/upload"
+[GIN] 2025/03/24 - 11:02:59 | 400 |       586.9µs |             ::1 | POST     "/projects/12/tasks"
+[GIN] 2025/03/24 - 11:10:00 | 400 |       703.1µs |             ::1 | POST     "/projects/12/tasks"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/24 - 11:14:24 | 400 |      1.5928ms |             ::1 | POST     "/projects/12/tasks"
+[GIN] 2025/03/24 - 11:14:54 | 201 |     21.4607ms |             ::1 | POST     "/projects/12/tasks"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/24 - 11:30:50 | 201 |      1.7411ms |             ::1 | POST     "/projects/12/tasks"
+[GIN] 2025/03/24 - 11:32:36 | 200 |       641.1µs |             ::1 | GET      "/projects/12/tasks"
+[GIN] 2025/03/24 - 12:36:20 | 200 |      2.2916ms |             ::1 | PUT      "/projects/12/tasks/12"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/25 - 13:00:27 | 201 |    104.7251ms |             ::1 | POST     "/register"
+[GIN] 2025/03/25 - 13:01:03 | 200 |     43.4003ms |             ::1 | POST     "/login"
+[GIN] 2025/03/25 - 13:07:56 | 200 |      1.0176ms |             ::1 | GET      "/projects/12"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/25 - 13:18:43 | 403 |      1.0688ms |             ::1 | GET      "/projects/12"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/25 - 13:20:15 | 200 |      7.9511ms |             ::1 | GET      "/projects/12"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/25 - 13:23:42 | 200 |     45.1441ms |             ::1 | POST     "/login"
+[GIN] 2025/03/25 - 13:24:31 | 200 |       504.4µs |             ::1 | GET      "/projects/12"
+[GIN] 2025/03/25 - 13:28:34 | 201 |     45.8611ms |             ::1 | POST     "/register"
+[GIN] 2025/03/25 - 13:29:06 | 200 |     46.7317ms |             ::1 | POST     "/login"
+[GIN] 2025/03/25 - 13:29:42 | 403 |       505.9µs |             ::1 | GET      "/projects/12"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/25 - 18:17:28 | 401 |         510µs |             ::1 | GET      "/projects/12/download"
+[GIN] 2025/03/25 - 18:18:09 | 200 |      1.2868ms |             ::1 | GET      "/projects/12/download"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (4 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (4 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (4 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (5 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (5 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (5 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (5 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (5 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (5 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (5 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (5 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (5 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (5 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 14:00:12 | 200 |     45.6669ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:14 | 200 |     45.4657ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:15 | 200 |      43.627ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:16 | 200 |     43.1125ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:17 | 200 |     43.4936ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:18 | 200 |     43.7054ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:19 | 200 |     45.0878ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:20 | 200 |     44.1582ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:21 | 200 |     45.2767ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:21 | 200 |     43.2159ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:22 | 200 |     44.2594ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:23 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:00:28 | 200 |      43.846ms |             ::1 | POST     "/login"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 14:13:44 | 200 |     44.9533ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:45 | 200 |     43.8602ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:46 | 200 |     45.9909ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:47 | 200 |     42.9685ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:47 | 200 |     45.2985ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:48 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:49 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:50 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:50 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:13:51 | 429 |            0s |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:32:49 | 200 |     44.9017ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:33:06 | 200 |     44.0063ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:33:20 | 200 |     43.7513ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:33:55 | 200 |     43.5087ms |             ::1 | POST     "/login"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 14:34:45 | 200 |     44.3059ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:35:35 | 401 |            0s |             ::1 | POST     "/projects"
+[GIN] 2025/03/27 - 14:36:21 | 401 |       814.2µs |             ::1 | POST     "/projects"
+[GIN] 2025/03/27 - 14:38:08 | 200 |      44.193ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:38:33 | 401 |            0s |             ::1 | POST     "/projects"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 14:43:37 | 200 |     45.4799ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 14:44:22 | 201 |     74.6218ms |             ::1 | POST     "/projects"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 16:14:33 | 201 |     10.0223ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/27 - 16:15:37 | 400 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:16:42 | 400 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:16:54 | 200 |       502.9µs |             ::1 | GET      "/projects/12"
+[GIN] 2025/03/27 - 16:17:02 | 200 |            0s |             ::1 | GET      "/projects/15"
+[GIN] 2025/03/27 - 16:22:40 | 200 |     44.0004ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 16:23:00 | 400 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:23:48 | 404 |      1.0045ms |             ::1 | GET      "/user/projects/13"
+[GIN] 2025/03/27 - 16:23:53 | 400 |            0s |             ::1 | GET      "/user/projects"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 16:33:46 | 401 |      7.9688ms |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:34:06 | 401 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:34:49 | 200 |     44.2845ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 16:35:03 | 401 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:35:42 | 200 |       992.4µs |             ::1 | GET      "/projects/15"
+[GIN] 2025/03/27 - 16:35:47 | 200 |       778.3µs |             ::1 | GET      "/projects/13"
+[GIN] 2025/03/27 - 16:36:07 | 200 |      2.4639ms |             ::1 | PUT      "/projects/13"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/27 - 16:36:49 | 200 |       438.4µs |             ::1 | POST     "/projects/13/upload"
+[GIN] 2025/03/27 - 16:43:00 | 201 |     92.5827ms |             ::1 | POST     "/register"
+[GIN] 2025/03/27 - 16:45:07 | 200 |     45.0504ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 16:46:57 | 201 |      1.8388ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/27 - 16:47:55 | 401 |            0s |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:48:09 | 401 |            0s |             ::1 | GET      "/user/projects"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 16:49:53 | 200 |      8.5357ms |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:50:32 | 200 |     43.5316ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 16:50:52 | 200 |       797.9µs |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/27 - 16:56:19 | 200 |       518.3µs |             ::1 | GET      "/projects/13"
+[GIN] 2025/03/27 - 16:56:47 | 200 |      2.4411ms |             ::1 | PUT      "/projects/13"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/27 - 16:57:18 | 200 |       968.1µs |             ::1 | POST     "/projects/13/upload"
+[GIN] 2025/03/27 - 16:57:58 | 200 |      1.6785ms |             ::1 | POST     "/projects/13/upload"
+[GIN] 2025/03/27 - 16:58:34 | 200 |       753.5µs |             ::1 | GET      "/projects/13/download"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 201
+[GIN] 2025/03/27 - 16:59:03 | 200 |     42.1491ms |             ::1 | POST     "/projects/13/tasks"
+[GIN] 2025/03/27 - 16:59:49 | 200 |      1.2883ms |             ::1 | GET      "/projects/13/tasks"
+[GIN] 2025/03/27 - 17:00:19 | 200 |      1.5577ms |             ::1 | PUT      "/projects/13/tasks/13"
+[GIN] 2025/03/27 - 18:01:43 | 200 |     46.3755ms |             ::1 | POST     "/login"
+[GIN] 2025/03/27 - 18:02:01 | 403 |            0s |             ::1 | PUT      "/projects/13"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs                     --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 19:01:46 | 404 |      7.8441ms |             ::1 | GET      "/docs"
+[GIN] 2025/03/27 - 19:03:02 | 404 |            0s |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:03:18 | 404 |            0s |             ::1 | GET      "/docs/swagger.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 19:06:19 | 200 |      8.7488ms |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:06:19 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/27 - 19:06:19 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/27 - 19:06:19 | 200 |       2.585ms |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/27 - 19:06:19 | 500 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/27 - 19:06:19 | 429 |            0s |             ::1 | GET      "/docs/favicon-32x32.png"
+[GIN] 2025/03/27 - 19:06:19 | 429 |            0s |             ::1 | GET      "/docs/favicon-16x16.png"
+[GIN] 2025/03/27 - 19:06:33 | 429 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/27 - 19:07:22 | 404 |      1.5034ms |             ::1 | GET      "/docs/swagger.json"
+[GIN] 2025/03/27 - 19:09:38 | 200 |            0s |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:09:38 | 304 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/27 - 19:09:38 | 429 |            0s |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/27 - 19:09:38 | 429 |            0s |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/27 - 19:09:38 | 429 |            0s |             ::1 | GET      "/docs/favicon-32x32.png"
+[GIN] 2025/03/27 - 19:09:38 | 429 |       943.2µs |             ::1 | GET      "/docs/favicon-16x16.png"
+[GIN] 2025/03/27 - 19:09:42 | 429 |            0s |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:09:43 | 429 |            0s |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 19:10:55 | 200 |        8.67ms |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:10:55 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/27 - 19:10:55 | 200 |      2.1331ms |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/27 - 19:10:55 | 200 |      1.0243ms |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/27 - 19:10:55 | 500 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/27 - 19:10:55 | 200 |            0s |             ::1 | GET      "/docs/favicon-32x32.png"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/27 - 19:18:27 | 200 |      8.2797ms |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/27 - 19:18:27 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/27 - 19:18:27 | 200 |       502.9µs |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/27 - 19:18:27 | 200 |      9.1332ms |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/27 - 19:18:28 | 200 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/27 - 19:18:28 | 200 |       577.9µs |             ::1 | GET      "/docs/favicon-32x32.png"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/28 - 12:18:48 | 200 |      5.9692ms |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/28 - 12:18:48 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/28 - 12:18:48 | 200 |       500.9µs |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/28 - 12:18:48 | 200 |       5.733ms |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/28 - 12:18:49 | 200 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/28 - 12:18:49 | 200 |       889.1µs |             ::1 | GET      "/docs/favicon-32x32.png"
+[GIN] 2025/03/28 - 12:22:52 | 201 |    108.0061ms |             ::1 | POST     "/register"
+[GIN] 2025/03/28 - 12:23:30 | 200 |     44.4726ms |             ::1 | POST     "/login"
+[GIN] 2025/03/28 - 12:24:46 | 201 |     13.8094ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/28 - 12:27:55 | 200 |       632.7µs |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/28 - 12:28:12 | 200 |       503.5µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:29:51 | 403 |       503.5µs |             ::1 | PUT      "/projects/13"
+[GIN] 2025/03/28 - 12:30:03 | 200 |     34.1522ms |             ::1 | PUT      "/projects/17"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/28 - 12:31:35 | 200 |      1.5621ms |             ::1 | POST     "/projects/17/upload"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/28 - 12:33:03 | 200 |         661µs |             ::1 | POST     "/projects/17/upload"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/28 - 12:33:40 | 200 |       504.4µs |             ::1 | POST     "/projects/17/upload"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 400
+[GIN] 2025/03/28 - 12:33:54 | 200 |       452.6µs |             ::1 | POST     "/projects/17/upload"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/28 - 12:38:04 | 200 |      9.5423ms |             ::1 | POST     "/projects/17/upload"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/28 - 12:40:26 | 200 |      14.735ms |             ::1 | POST     "/projects/17/upload"
+[GIN] 2025/03/28 - 12:41:52 | 200 |      1.0597ms |             ::1 | GET      "/projects/17/download"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 201
+[GIN] 2025/03/28 - 12:43:37 | 200 |      31.523ms |             ::1 | POST     "/projects/17/tasks"
+[GIN] 2025/03/28 - 12:44:37 | 200 |      1.4544ms |             ::1 | GET      "/projects/17/tasks"
+[GIN] 2025/03/28 - 12:45:42 | 200 |      1.0309ms |             ::1 | PUT      "/projects/17/tasks/14"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 201
+[GIN] 2025/03/28 - 12:47:14 | 200 |      1.0918ms |             ::1 | POST     "/projects/17/tasks"
+[GIN] 2025/03/28 - 12:48:14 | 200 |      1.0938ms |             ::1 | DELETE   "/projects/17/tasks/15"
+[GIN] 2025/03/28 - 12:50:00 | 201 |      1.4229ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/28 - 12:50:29 | 200 |      1.0364ms |             ::1 | DELETE   "/projects/18"
+[GIN] 2025/03/28 - 12:55:40 | 401 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:55:43 | 200 |       610.1µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:56:07 | 200 |     44.2432ms |             ::1 | POST     "/login"
+[GIN] 2025/03/28 - 12:56:24 | 200 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:56:32 | 200 |       503.3µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:56:51 | 200 |     46.4104ms |             ::1 | POST     "/login"
+[GIN] 2025/03/28 - 12:57:03 | 403 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:57:08 | 200 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:57:12 | 401 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:57:18 | 403 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 12:57:37 | 200 |       607.1µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 13:04:57 | 404 |       568.6µs |             ::1 | POST     "/refresh/"
+[GIN] 2025/03/28 - 13:05:26 | 500 |      2.1065ms |             ::1 | POST     "/refresh/16"
+[GIN] 2025/03/28 - 13:06:16 | 500 |      1.0169ms |             ::1 | POST     "/refresh/16"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/28 - 13:07:36 | 200 |      9.3792ms |             ::1 | POST     "/refresh/16"
+[GIN] 2025/03/28 - 13:08:32 | 200 |       503.3µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 13:08:36 | 200 |       504.4µs |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 13:08:42 | 200 |      1.1716ms |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 13:08:46 | 200 |            0s |             ::1 | GET      "/projects/17"
+[GIN] 2025/03/28 - 13:08:51 | 200 |       634.2µs |             ::1 | GET      "/projects/17"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/28 - 16:48:45 | 201 |     45.8482ms |             ::1 | POST     "/register"
+[GIN] 2025/03/28 - 16:49:56 | 200 |     42.8629ms |             ::1 | POST     "/login"
+[GIN] 2025/03/28 - 16:52:22 | 201 |      1.5053ms |             ::1 | POST     "/projects"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/29 - 13:07:52 | 200 |     51.7901ms |             ::1 | POST     "/login"
+[GIN] 2025/03/29 - 13:08:49 | 201 |      1.1692ms |             ::1 | POST     "/projects"
+[GIN] 2025/03/29 - 13:10:17 | 404 |            0s |             ::1 | GET      "/projects"
+[GIN] 2025/03/29 - 13:10:33 | 200 |       503.8µs |             ::1 | GET      "/user/projects"
+[GIN] 2025/03/29 - 13:12:17 | 200 |      1.0153ms |             ::1 | GET      "/projects/19"
+[GIN] 2025/03/29 - 13:16:28 | 200 |      1.8339ms |             ::1 | PUT      "/projects/19"
+[GIN] 2025/03/29 - 13:23:07 | 200 |      1.5432ms |             ::1 | POST     "/projects/19/upload"
+[GIN] 2025/03/29 - 13:25:15 | 404 |            0s |             ::1 | POST     "/projects/19/download"
+[GIN] 2025/03/29 - 13:25:34 | 200 |     33.7875ms |             ::1 | GET      "/projects/19/download"
+[GIN] 2025/03/29 - 13:28:38 | 400 |       504.6µs |             ::1 | POST     "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:28:54 | 201 |      1.7064ms |             ::1 | POST     "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:31:07 | 200 |       736.6µs |             ::1 | GET      "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:34:07 | 200 |       502.7µs |             ::1 | GET      "/projects/19/tasks?priority=High"
+[GIN] 2025/03/29 - 13:34:49 | 201 |       691.6µs |             ::1 | POST     "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:35:14 | 200 |      9.3639ms |             ::1 | GET      "/projects/19/tasks?deadline=2025-04-15"
+[GIN] 2025/03/29 - 13:36:33 | 404 |       503.8µs |             ::1 | GET      "/projects/19/tasks?status=Done"
+[GIN] 2025/03/29 - 13:37:20 | 201 |       757.6µs |             ::1 | POST     "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:37:34 | 200 |            0s |             ::1 | GET      "/projects/19/tasks?deadline=2025-06-25"
+[GIN] 2025/03/29 - 13:38:04 | 201 |       1.022ms |             ::1 | POST     "/projects/19/tasks"
+[GIN] 2025/03/29 - 13:38:52 | 400 |       504.7µs |             ::1 | GET      "/projects/19/tasks?status=Medium"
+[GIN] 2025/03/29 - 13:39:14 | 200 |       633.9µs |             ::1 | GET      "/projects/19/tasks?priority=Medium"
+[GIN] 2025/03/29 - 13:39:54 | 400 |            0s |             ::1 | GET      "/projects/19/tasks?deadline=2025-06-25T00:00:00Z"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/29 - 13:51:03 | 200 |      8.7352ms |             ::1 | GET      "/projects/19/tasks?deadline=2025-04-15"
+[GIN] 2025/03/29 - 13:52:31 | 200 |      1.1253ms |             ::1 | GET      "/projects/19/tasks?deadline=2025-06-25"
+[GIN] 2025/03/29 - 13:57:55 | 200 |       777.2µs |             ::1 | GET      "/projects/19/tasks?status=In_Progress"
+[GIN] 2025/03/29 - 14:03:54 | 200 |      1.6339ms |             ::1 | PUT      "/projects/19/tasks/16"
+[GIN] 2025/03/29 - 14:06:21 | 200 |      1.1718ms |             ::1 | DELETE   "/projects/19/tasks/16"
+[GIN] 2025/03/29 - 14:08:57 | 200 |      1.0155ms |             ::1 | DELETE   "/projects/19"
+[GIN] 2025/03/29 - 14:12:49 | 400 |            0s |             ::1 | POST     "/refresh/17"
+[GIN] 2025/03/29 - 14:15:15 | 200 |      1.3728ms |             ::1 | POST     "/refresh/17"
+[GIN] 2025/03/29 - 14:19:03 | 200 |            0s |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/29 - 14:19:03 | 200 |            0s |             ::1 | GET      "/docs/swagger-ui.css"
+[GIN] 2025/03/29 - 14:19:03 | 200 |       503.8µs |             ::1 | GET      "/docs/swagger-ui-standalone-preset.js"
+[GIN] 2025/03/29 - 14:19:03 | 200 |      4.5347ms |             ::1 | GET      "/docs/swagger-ui-bundle.js"
+[GIN] 2025/03/29 - 14:19:04 | 200 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN] 2025/03/29 - 14:19:22 | 200 |       504.2µs |             ::1 | GET      "/docs/index.html"
+[GIN] 2025/03/29 - 14:19:23 | 200 |            0s |             ::1 | GET      "/docs/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> GoAPIManager/GAPi.registerUser (5 handlers)
+[GIN-debug] POST   /login                    --> GoAPIManager/GAPi.loginUser (5 handlers)
+[GIN-debug] POST   /refresh/:id              --> GoAPIManager/GAPi.refreshToken (5 handlers)
+[GIN-debug] POST   /projects                 --> GoAPIManager/GAPi.createProject (6 handlers)
+[GIN-debug] GET    /user/projects            --> GoAPIManager/GAPi.getUserProjects (6 handlers)
+[GIN-debug] GET    /projects/:id             --> GoAPIManager/GAPi.getProject (6 handlers)
+[GIN-debug] PUT    /projects/:id             --> GoAPIManager/GAPi.updateProject (6 handlers)
+[GIN-debug] DELETE /projects/:id             --> GoAPIManager/GAPi.deleteProject (6 handlers)
+[GIN-debug] POST   /projects/:id/upload      --> GoAPIManager/GAPi.uploadProjectFile (6 handlers)
+[GIN-debug] GET    /projects/:id/download    --> GoAPIManager/GAPi.downloadProjectFile (6 handlers)
+[GIN-debug] POST   /projects/:id/tasks       --> GoAPIManager/GAPi.createTask (6 handlers)
+[GIN-debug] GET    /projects/:id/tasks       --> GoAPIManager/GAPi.getTasks (6 handlers)
+[GIN-debug] PUT    /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.updateTask (6 handlers)
+[GIN-debug] DELETE /projects/:id/tasks/:task_id --> GoAPIManager/GAPi.deleteTask (6 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/29 - 15:39:47 | 200 |       52.51ms |             ::1 | POST     "/login"
+[GIN] 2025/03/29 - 15:40:21 | 401 |            0s |             ::1 | POST     "/projects"
+[GIN] 2025/03/29 - 15:40:39 | 201 |      2.1282ms |             ::1 | POST     "/projects"

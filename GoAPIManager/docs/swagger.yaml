@@ -1,0 +1,724 @@
+basePath: /
+definitions:
+  GoAPIManager.Project:
+    properties:
+      assignee_id:
+        type: integer
+      createdAt:
+        type: string
+      description:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+    type: object
+  GoAPIManager.Task:
+    properties:
+      assignee_id:
+        type: integer
+      deadline:
+        type: string
+      description:
+        maxLength: 500
+        type: string
+      id:
+        type: integer
+      priority:
+        enum:
+        - High
+        - Medium
+        - Low
+        type: string
+      projectID:
+        type: integer
+      status:
+        enum:
+        - In_Progress
+        - Done
+        - In_Line
+        type: string
+      title:
+        maxLength: 255
+        type: string
+    required:
+    - priority
+    - status
+    - title
+    type: object
+  GoAPIManager.User:
+    properties:
+      id:
+        type: integer
+      password:
+        type: string
+      refreshToken:
+        type: string
+      role:
+        enum:
+        - User
+        - Admin
+        type: string
+      username:
+        type: string
+    required:
+    - role
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: API для управления проектами и задачами, позволяющее пользователям
+    создавать проекты, управлять задачами внутри них, а также изменять их свойства.
+  title: RESTful API-сервер на Golang
+  version: "1.0"
+paths:
+  /login:
+    post:
+      consumes:
+      - application/json
+      description: Аутентификация пользователя по имени и паролю и выдача access-токена
+      parameters:
+      - description: Данные пользователя (имя и пароль)
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.User'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Успешная аутентификация. Возвращает access-токен
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Некорректные входные данные
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неверное имя пользователя или пароль
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка при генерации access-токена
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Аутентификация пользователя
+      tags:
+      - Аутентификация
+  /projects:
+    post:
+      consumes:
+      - application/json
+      description: Создаёт новый проект, привязывая его к пользователю, авторизованному
+        через JWT-токен
+      parameters:
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Данные проекта
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.Project'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Проект успешно создан
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Некорректный ввод данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Необходим авторизационный токен или неверный формат токена
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка базы данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Создание проекта
+      tags:
+      - Проекты
+  /projects/:id/tasks/:task_id:
+    put:
+      description: Обновляет задачу в проекте по ID, с проверкой обязательных полей
+        и значений
+      parameters:
+      - description: ID задачи
+        in: path
+        name: task_id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Обновленные данные задачи
+        in: body
+        name: task
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.Task'
+      responses:
+        "200":
+          description: Информация об обновленной задаче
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Ошибка валидации данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Задача не найдена
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Обновление задачи
+      tags:
+      - Задачи
+  /projects/{id}:
+    delete:
+      description: Удаляет проект по указанному ID
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      responses:
+        "200":
+          description: Проект удален
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Некорректный запрос
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неавторизованный доступ
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Проект не найден
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Удаление проекта
+      tags:
+      - Проекты
+    get:
+      consumes:
+      - application/json
+      description: Возвращает данные проекта по его ID
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Проект успешно найден
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Некорректный ID проекта
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Проект не найден
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка базы данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Получение проекта
+      tags:
+      - Проекты
+    put:
+      consumes:
+      - application/json
+      description: Обновляет данные существующего проекта по его ID
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Данные для обновления проекта
+        in: body
+        name: project
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.Project'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Проект успешно обновлён
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Неверный запрос или некорректные данные
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неавторизованный доступ
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Проект не найден
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка базы данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Обновление проекта
+      tags:
+      - Проекты
+  /projects/{id}/download:
+    get:
+      description: Скачивает файл, связанный с указанным проектом, если он существует
+        на сервере
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/octet-stream
+      responses:
+        "200":
+          description: Файл проекта
+          schema:
+            type: file
+        "400":
+          description: Некорректный запрос
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неавторизованный доступ
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Файл не найден
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Скачивание файла проекта
+      tags:
+      - Проекты
+  /projects/{id}/tasks:
+    get:
+      description: Получает список задач проекта с возможностью фильтрации по статусу,
+        дедлайну и приоритету
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Статус задачи (In_Progress, Done, In_Line)
+        in: query
+        name: status
+        type: string
+      - description: 'Дедлайн задачи (формат: YYYY-MM-DD)'
+        in: query
+        name: deadline
+        type: string
+      - description: Приоритет задачи (High, Medium, Low)
+        in: query
+        name: priority
+        type: string
+      responses:
+        "200":
+          description: Список задач
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Ошибка валидации данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Задачи не найдены
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Получение задач проекта
+      tags:
+      - Задачи
+    post:
+      description: Создает новую задачу для проекта с привязкой к пользователю
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Данные задачи
+        in: body
+        name: task
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.Task'
+      responses:
+        "201":
+          description: Задача успешно создана
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Ошибка валидации данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неавторизованный доступ
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Создание задачи
+      tags:
+      - Задачи
+  /projects/{id}/upload:
+    post:
+      consumes:
+      - multipart/form-data
+      description: Загружает файл для указанного проекта и сохраняет путь к файлу
+        в базе данных
+      parameters:
+      - description: ID проекта
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Файл для загрузки (до 100MB)
+        in: formData
+        name: file
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Файл успешно загружен
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Некорректный запрос или ошибка загрузки файла
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неавторизованный доступ
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Проект не найден
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка при сохранении файла или обновлении базы данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Загрузка файла к проекту
+      tags:
+      - Проекты
+  /refresh/:id:
+    post:
+      consumes:
+      - application/json
+      description: Проверяет refresh token, генерирует новый access и refresh токены
+        и сохраняет новый refresh token в базе данных.
+      parameters:
+      - description: Тело запроса с refresh токеном
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.User'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Новые access и refresh токены
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Некорректные входные данные
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Неверный refresh token
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Обновление access и refresh токенов
+      tags:
+      - Аутентификация
+  /register:
+    post:
+      consumes:
+      - application/json
+      description: Регистрирует нового пользователя в системе.
+      parameters:
+      - description: Данные для регистрации
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/GoAPIManager.User'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Пользователь успешно зарегистрирован
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Некорректные данные или пользователь уже существует
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Внутренняя ошибка сервера
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Регистрация пользователя
+      tags:
+      - Аутентификация
+  /tasks/{task_id}:
+    delete:
+      description: Удаляет задачу из базы данных по ID
+      parameters:
+      - description: ID задачи
+        in: path
+        name: task_id
+        required: true
+        type: integer
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      responses:
+        "200":
+          description: Сообщение об успешном удалении задачи
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Ошибка, если ID задачи некорректен
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Задача не найдена
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка сервера
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Удаление задачи
+      tags:
+      - Задачи
+  /user/projects:
+    get:
+      consumes:
+      - application/json
+      description: Возвращает список проектов, созданных текущим пользователем
+      parameters:
+      - description: Bearer токен
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Проекты успешно найдены
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Неавторизованный доступ или неверный токен
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: У пользователя нет проектов
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Ошибка базы данных
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Получение проектов пользователя
+      tags:
+      - Проекты
+swagger: "2.0"
