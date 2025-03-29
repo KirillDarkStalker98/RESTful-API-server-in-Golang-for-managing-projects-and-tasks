@@ -60,6 +60,8 @@ JWT-аутентификация
 
 ## Примеры запросы:
 
+В папке проекта лежит файл с запросами для postman (GAPi.postman_collection.json)
+
 ### 1. Регистация пользователя
 
 * Запрос: curl -X POST http://localhost:8080/register -H "Content-Type: application/json" -d "{ \"username\": \"User1\", \"password\": \"wordPass243\", \"role\": \"admin\" }"
