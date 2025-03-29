@@ -150,7 +150,7 @@ JWT-аутентификация
 
 * Ответ: {"AccessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNywidXNlcm5hbWUiOiJVc2VyMSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0MzI4MjkxNX0.0hklnN79jBlXAQOKIPtd-8yHYJk_YYB-vjDkyYm-_kc","RefreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNywidXNlcm5hbWUiOiJVc2VyMSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0Mzg0NDUxNX0.oTJU-0vRL64l9wkBai0Q3RFDUJeaIZQVxR6sBUC9RTo"}
 
-### 14. Просмотр документации
+### 15. Просмотр документации
 
 * Запрос: Вставить в браузере (http://localhost:8080/docs/index.html#/)
 
